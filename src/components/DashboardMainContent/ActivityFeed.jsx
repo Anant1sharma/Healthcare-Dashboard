@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ActivityFeed.module.css";
 
 const ActivityFeed = () => {
-  // Static activity data for bar height
+
   const activityData = [30, 70, 50, 90, 60, 40, 80];
 
   return (
