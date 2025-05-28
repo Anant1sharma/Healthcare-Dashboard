@@ -1,0 +1,25 @@
+.container {
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.dayGroup {
+  margin-bottom: 1.5rem;
+}
+
+.day {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

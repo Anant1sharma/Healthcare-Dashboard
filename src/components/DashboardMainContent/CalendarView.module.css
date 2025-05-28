@@ -1,0 +1,63 @@
+.calendarContainer {
+  margin-top: 2rem;
+}
+
+.monthLabel {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cell {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.5rem;
+  min-height: 70px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.day {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.timeSlot {
+  font-size: 0.75rem;
+  background: #e6f1ff;
+  margin-top: 2px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.bottomAppointments {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.appointmentCard {
+  background: #fdfdfd;
+  border-left: 4px solid #007bff;
+  padding: 0.75rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-weight: 600;
+  color: #333;
+}
+
+.time {
+  font-size: 0.85rem;
+  color: #666;
+}

@@ -1,0 +1,13 @@
+.appLayout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.mainContent {
+  flex: 1;
+  background-color: #fdfdfd;
+  overflow-y: auto;
+  padding: 1rem;
+}
